@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+a {
+    color: #1CAAE0;
+}
+h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.nav {
+    width: 100%;
+    background-color: white;
+}
+.nav img {
+	padding: 15px;
+	width: 200px;
+	background-image: url(Responsive-Stripes-and-Umbrellas-master/su_logo.gif);
+}
+
+.nav ul {
+    float: right;
+    text-align: right;
+    list-style-type: none;
+}
+.nav li {
+    display: inline-block;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+.intro {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: url(intro.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+.intro h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+.intro a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1CAAE0;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.col-1, .col-2, .col-3 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.col-1 img, .col-2 img, .col-3 img {
+    max-width: 100%;
+}
+.col-1 p, .col-2 p, .col-3 p {
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.footer {
+    text-align: center;
+    font-style: italic;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #C4C4C4;
+    clear: both;
+    background-color: #DFDFDF;
+}
+@media screen and (max-width : 539px ){
+.nav img {
+	width: 40%;
+	padding-bottom: 59px;
+}
+.intro {
+	background-image: url(intro.jpg);
+	width: 540px;
+}
+.nav ul li {
+	width: 13%;
+	background-color: #FFFFFF;
+	display: inline;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 1px 7px 29px #070707;
+	box-shadow: 1px 7px 29px #070707;
+	padding-right: 19px;
+	padding-left: 10px;
+	padding-top: 19px;
+	padding-bottom: 18px;
+	margin-right: -7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.col-1 h3 {
+	width: 80%;
+}
